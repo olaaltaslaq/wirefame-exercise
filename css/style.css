@@ -4,7 +4,7 @@
    
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: #21094E;
+    background: #ffffff;
     display: grid;
     grid-template-rows: 100px 1fr 50px;
     gap: 30px;
@@ -16,18 +16,24 @@ header{
     align-items: center;
     display: flex;
     justify-content: space-between;
-    background: #ffae23;
+    background: #363636;
 }
   
+
+#logoimg{
+   color: black;
+}
+
 header img{
     width: 200px;
     padding-left: 30px;
+    color: black;
 }
   
 header a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #aafae9;
+    color: #c9c9c9;
     padding: 0 53px;
 }
 
@@ -36,7 +42,7 @@ header a{
     gap: 29px;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: #21094E;
+    background-color: #ffffff;
 }
 
 .imgfsb{
@@ -59,21 +65,30 @@ img{
  
 h3{
     font-weight: bold;
-    color:#ffae23;
+    color:#000000;
 }
 
 p{
-    color:#ffae23;
+    color:#0c0c0c;
 }
 
 #actbutton{
-    color: white;
-    background-color: #6BBAA7;
+    transition-duration: 0.4s;
     border: none;
     padding: 12px 24px;
     margin-top: 16px;
     font-size: 18px;
-    text-decoration: none;
+    /* text-decoration: none; */
+    cursor: pointer;
+    width: 50%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+#actbutton:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
 }
 
 #forth{
@@ -83,8 +98,8 @@ p{
 }
 
 footer{
-    color: #aafae9;
-    background: #ffae23;
+    color: #c9c9c9;
+    background: #363636;
     display: flex;
     align-items: center;
     justify-content: center;
